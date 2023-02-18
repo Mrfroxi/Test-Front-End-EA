@@ -1,0 +1,19 @@
+.textTimeDescription{
+    font-family: 'PoppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.blockTimeDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(./Vector.svg);
+    min-width: 132px;
+    height: 54px;
+}
