@@ -1,25 +1,32 @@
-import React, { useRef } from 'react'
-import Events from '../../pages/events/events';
-import Footer from '../../pages/footer/footer';
-import Main from '../../pages/main/main';
-import classes from './mainWrapper.module.css'
-const Wrapper =  () => {
+import React, { useRef } from "react";
+import Events from "../../pages/events/events";
+import Footer from "../../pages/footer/footer";
+import Main from "../../pages/main/main";
+import classes from "./mainWrapper.module.css";
 
-  const ref =useRef(null);
+
+const Wrapper = ({ setModal }) => {
+
+  const ref = useRef(null);
 
   const handleClick = (e) => {
-    e.preventDefault()
-    ref.current?.scrollIntoView({behavior:'smooth'})
-  }
+    e.preventDefault();
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
- return (
-      <div className={classes.wrapper}>
+  return (
+    <div className={classes.pageWrapper}>
+
       <Main />
-      <Events  />
+
+      <Events />
+
       <span className={classes.buildingAnimationBlock} ref={ref}></span>
-      <Footer onClick={handleClick}/>
-   </div>
- );
+
+      <Footer onClick={handleClick} setModal={setModal} />
+
+    </div>
+  );
 };
 
 export default Wrapper;

@@ -1,0 +1,183 @@
+.allEventsTitle~*{
+    margin-top: 40px;
+}   
+
+
+
+.wrapper{
+	margin: 0 auto;
+    width: 100%;
+    text-align:center;
+}
+.wrapper ~ * {
+    margin-top: 130px;
+}
+.main_title{
+	font-size: 32px;
+	color: #fff;
+	letter-spacing: 2px;
+	padding: 15px 25px; 
+	border-radius: 3px;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto 25px;
+}
+
+
+/* action */
+.accordion_wrap ul{
+	display: flex;
+	justify-content: center;
+}
+
+.accordion_wrap .accordion_item{
+	list-style: none;
+    background: #162C4E;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.2s linear;
+    font-family: 'SF-Pro-DisplaySemibold';
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+
+.accordion_wrap .accordion_item:hover,
+.accordion_wrap li.active .accordion_item{
+    background: #162C4E;
+}
+
+.accordion_item_title{
+    margin-left: auto;
+    margin-right: auto;
+}
+.accordion_wrap ul li{
+	display: flex;
+}
+.acordingList{
+    position: relative;
+    min-height: 680px;
+    padding: 0 5px;
+}
+
+.accordion_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 2px;
+}
+.accordion_item_num{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'SF-Pro-Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding: 0px 12px 10px 12px;
+}
+.accordion_item .accordion_item_title{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding-top: 20px;
+}
+
+/* menu */
+.accordion_menu{
+	width: 0px;
+	background: #fffaeb;
+	overflow: hidden;
+	transition: width 0.5s ease;
+    background-image: url(../../shared/ui/img/FirstIvent.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accordion_wrap ul li.active .accordion_menu{
+	width: 980px;
+}
+
+.accordion_menu .content{
+	font-size: 13px;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+.accordion_menu .view_more{
+	padding: 5px;
+	width: 125px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.accordion_menu .view_more:hover{
+	text-decoration: underline;
+}
+
+.acordionBlockInformation{
+    width: 360px;
+    height: 100%;
+    background: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(20px);
+}
+.acordionBlockInformation span{
+    display: block;
+    margin-bottom: 115px;
+    left: -123px;
+    top: -24px;
+    position: relative;
+    font-family: 'SF-Pro-DisplaySemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 380px;
+    line-height: 100%;    
+    text-align: right;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.04);
+}
+
+.accordionBlockInformationTimeNameTitle{
+    font-family: 'SF-Pro-DisplaySemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.accordionBlockInformationTimeNameDate{
+    font-family: 'SF-Pro-Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+}
+.accordingBlockConteinerInformation{
+    padding-left:40px ;
+}
+.accordionBlockInformationTimeBtn{
+    border: none;
+}
+
+.accordionBlockInformationTimeBtn {
+    min-width: 210px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-left :8px solid #FFFFFF;
+    font-family: 'SF-Pro-DisplaySemibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px 56px;
+}

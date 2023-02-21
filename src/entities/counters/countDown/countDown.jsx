@@ -12,18 +12,24 @@ const CountDown = () => {
   let interval = useRef();
 
   const startTimer = () => {
+
     const countDownDate = new Date("May 31 2023 00:00:00").getTime();
+
     interval = setInterval(() => {
+
       const timeNow = new Date().getTime();
       const distance = countDownDate - timeNow;
 
       const notUtcDays = Math.floor(distance / (1000 * 60 * 60 * 24));
+
       const notUtcHours = Math.floor(
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
+
       const notUtcMinutes = Math.floor(
         (distance % (1000 * 60 * 60)) / (1000 * 60)
       );
+
       const notUtcSeconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       if (distance >= 0) {
@@ -32,6 +38,7 @@ const CountDown = () => {
         setHour(notUtcHours);
         setDay(notUtcDays);
       }
+      
     }, 1000);
   };
 

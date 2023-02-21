@@ -28,7 +28,9 @@ export const useInput = (InitialValue,validations) => {
       onBlur,
       isDirty,
       makeDirty,
-      ...valid
+      setValue,
+      setDirty,
+      ...valid,
     }
   }
   

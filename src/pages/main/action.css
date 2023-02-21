@@ -1,0 +1,29 @@
+.logo-enter {
+  opacity: 0;
+  transform:translateY(-20px);
+}
+.logo-enter-active {
+  opacity: 1;
+  transform:translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.mainHomeInformation-enter {
+  opacity: 0;
+  transform:translateY(-20px);
+}
+.mainHomeInformation-enter-active {
+  opacity: 1;
+  transform:translateY(0);
+  transition: opacity 1400ms, transform 1400ms;
+}
+
+.lastBlockAction-enter {
+  opacity: 0;
+  transform:translateY(-20px);
+}
+.lastBlockAction-enter-active {
+  opacity: 1;
+  transform:translateY(0);
+  transition: opacity 2300ms, transform 2300ms;
+}
