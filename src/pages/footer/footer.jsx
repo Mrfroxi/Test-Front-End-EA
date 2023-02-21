@@ -1,11 +1,10 @@
-import React from 'react'
 import classes from './footer.module.css'
 import { ReactComponent as ArrowRightSvg } from "../../shared/ui/svg/arrow-rightSvg.svg";
 import { sendData } from "../../action/mainAction";
 import { useInput } from "../../shared/hoc/useInput";
 
 
-const Footer =  () => {
+const Footer =  (props) => {
 
 
     const email = useInput("", { isEmpty: true, minLength: 4, isEmail: true });
@@ -34,7 +33,7 @@ const Footer =  () => {
         </button>
       </form>
       <div
-        // onClick={(e) => props.onClick(e)}
+        onClick={(e) => props.onClick(e)}
         className={classes.linkRefMainFooter}
       >
         <a href="./" className={classes.link}>
