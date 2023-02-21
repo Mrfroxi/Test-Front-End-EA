@@ -1,0 +1,57 @@
+.mainEntricingBlock{
+
+}
+
+.entricingTextBlock{
+    text-align: center;
+    font-family: 'PoppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.8);
+}
+.entricingTextBlock ~ *{
+    margin-top: 12px;
+}
+.entricingText{
+
+}
+
+
+.linkMainBtnWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumplink{
+    position: relative;
+    border-radius: 40px;
+    font-family: 'PoppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 16px 73px 17px 28px;
+    background: #1D4169;
+}
+.jumplink::after {
+    position: absolute;
+    content: url('../../shared/ui/svg/arrow-rightSvg.svg');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    right: 8px;
+    margin: 0 5px 0 10px;
+}
+.enticingBlock{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 156px;
+}
+
