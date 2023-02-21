@@ -1,0 +1,8 @@
+.mainLogo{
+    min-height: 60px; 
+    min-width: 190px;
+}
+
+.mainLogo ~ *{
+    margin-top: 100px;
+}
