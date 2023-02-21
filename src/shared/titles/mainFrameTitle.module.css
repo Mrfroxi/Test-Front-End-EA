@@ -1,0 +1,13 @@
+.mainTitle{
+    font-family: 'PoppinsBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 104%;
+    color: #162C4E;
+    opacity: 0.39;
+}
+
+.mainTitle ~ *{
+    margin-top: 8px;
+}
