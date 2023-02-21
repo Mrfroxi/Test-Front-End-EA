@@ -1,0 +1,21 @@
+.main{
+    padding-top: 110px;
+}
+
+.mainContainer{
+    max-width: 840px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.mainInformBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 630px;
+}
+
+.main ~ * {
+    margin-top: 156px;
+}
