@@ -7,9 +7,7 @@ import ErrorText from "../../shared/errorInputText/errorInputText";
 const Footer = ({ onClick, setModal }) => {
   
   const email = useInput("", { isEmpty: true, minLength: 4, isEmail: true });
-  // (email.isEmailError || email.minLengthError || email.isEmpty) && (
-  //   <ErrorText  text='Email is empty or invalid'/>
-  // )}
+
 
   return (
     <section className={classes.mainFooter}>

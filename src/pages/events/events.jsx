@@ -38,10 +38,14 @@ const data = [
     title: "Twitter",
     date: "some text",
   },
+  {
+    img: "https://img1.akspic.ru/crops/5/9/8/1/7/171895/171895-peyzash-oblako-rastenie-gora-prirodnyj_landshaft-7680x4320.jpg",
+    title: "Twitter",
+    date: "13.05.2005",
+  },
 ];
 
 const Events = () => {
-
   const [visibleItem, setVisibleItem] = React.useState(0);
 
   function onClick(item) {
@@ -86,7 +90,7 @@ const Events = () => {
                         type="submit"
                         className="accordionBlockInformationTimeBtn"
                       >
-                        More Information
+                        <p>More Information</p>
                       </button>
                     </div>
                   </div>
