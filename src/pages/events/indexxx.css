@@ -294,6 +294,17 @@
 
 
 @media(max-width:840px){
+
+    .accordion_item_num{
+        padding: 0px 32px 0px 40px;
+        font-size: 32px;
+    }
+
+     .accordion_item {
+         padding: 27px 0px;;
+    }
+
+
     .wrapper{
         margin-top: 0px;
     }
@@ -305,7 +316,6 @@
     }
 
     .accordion_item .accordion_item_title{
-        margin: 0;
         writing-mode: horizontal-tb;
         transform: rotate(0);
     }
@@ -321,10 +331,24 @@
 
     .accordion_item{
         width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
     }
     .acordionBlockInformation {
         /* setup */
         width: 0px;
         height: 0%;
     }
+
+    
+    .accordion_item_title{
+        font-size: 24px;
+    }
+    .accordion_item .accordion_item_title {
+        padding: 0;
+        margin: 0;
+        padding-top: 6px;
+    }
+
 }

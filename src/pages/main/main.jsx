@@ -39,8 +39,6 @@ const Main = () => {
             <MainHomeInformation />
           </CSSTransition>
 
-        
-
           <CSSTransition
             in={showMessage}
             timeout={1000}
@@ -59,11 +57,9 @@ const Main = () => {
             <MainEntricingBlock />
           </CSSTransition>
 
-
-    <div className={classes.firstVectorBlock}>
-      <img src="../main/VectorFirst.svg" alt="vector"></img>
-    </div>
-
+          <div className={classes.firstVectorBlock}>
+            <img src="../main/VectorFirst.svg" alt="vector"></img>
+          </div>
         </section>
       </section>
     </main>
