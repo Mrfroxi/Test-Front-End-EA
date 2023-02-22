@@ -19,10 +19,6 @@
     min-height: 630px;
 }
 
-.main ~ section {
-    margin-top: 156px;
-}
-
 .firstVectorBlock{
     margin: 0;
     position: absolute;

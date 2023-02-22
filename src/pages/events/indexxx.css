@@ -7,9 +7,7 @@
     width: 100%;
     text-align:center;
 }
-.wrapper ~ * {
-    margin-top: 130px;
-}
+
 .main_title{
 	font-size: 32px;
 	color: #fff;

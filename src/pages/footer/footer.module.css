@@ -111,11 +111,17 @@
     }
 }
 
+@media(max-width:840px){
+    .mainFooter{
+        position: relative;
+        margin: 157px 0 47px 0;
+    }
+}
+
 @media(max-width:800px){
     .linkRefMainFooter{
         margin-right: 40px;
     }
-
 }
 
 @media(max-width:760px){
