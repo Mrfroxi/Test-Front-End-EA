@@ -8,6 +8,7 @@ function App() {
    return (
     <>
       <Wrapper setModal={setModalActive}/>
+      
       <Modal  active={modalActive} setActive={setModalActive}/>
     </>
   );
