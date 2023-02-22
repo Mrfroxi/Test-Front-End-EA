@@ -90,7 +90,7 @@ const Events = () => {
                         type="submit"
                         className="accordionBlockInformationTimeBtn"
                       >
-                        <p>More Information</p>
+                        <a href="https://github.com/" className='link'>More Information</a>
                       </button>
                     </div>
                   </div>

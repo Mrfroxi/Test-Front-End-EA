@@ -6,6 +6,7 @@
 	margin: 0 auto;
     width: 100%;
     text-align:center;
+    margin-top: 100px
 }
 
 .main_title{
@@ -169,9 +170,10 @@
 
 .accordionBlockInformationTimeBtn{
     border: none;
+    display: flex;
 }
 
-.accordionBlockInformationTimeBtn p{
+.accordionBlockInformationTimeBtn a{
     max-width: 210px;
     background: none;
     border: 1px solid #FFFFFF;
@@ -184,6 +186,7 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.8);
     padding: 20px 10px 20px 45px;
+    display: block;
 }
 
  @media(max-width:1640px){
@@ -242,8 +245,8 @@
 
 
 @media(max-width:950px){
-    .accordionBlockInformationTimeBtn p {
-        padding: 20px 0px 20px 4px;
+    .accordionBlockInformationTimeBtn a {
+        padding: 20px 2px 20px 4px;
     }
     .accordion_item_num{
         padding: 0px 6px 10px 6px;
@@ -268,10 +271,10 @@
 }
 
 @media(max-width:930px){
-.accordionBlockInformationTimeBtn p {
+    .accordionBlockInformationTimeBtn a {
     max-width: 160px;
 }
-.accordionBlockInformationTimeBtn p {
+.accordionBlockInformationTimeBtn a {
     font-size: 14px;
 }
 .acordionBlockInformation {
@@ -288,7 +291,12 @@
 }
 
 }
+
+
 @media(max-width:840px){
+    .wrapper{
+        margin-top: 0px;
+    }
     .acordingList{
         flex-direction: column;
     }
