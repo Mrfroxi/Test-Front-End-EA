@@ -1,22 +1,14 @@
 .mainHomeInformation{
-
-}
-
-.mainTitle{
-    font-family: 'PoppinsBold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 104%;
-    color: #162C4E;
-    opacity: 0.39;
-}
-
-.mainTitle ~ *{
-    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
 }
 
 .mainHomeText{
+    max-width: 420px;
     text-align: center;
     font-family: 'PoppinsRegular';
     font-style: normal;
@@ -32,4 +24,19 @@
 
 .mainTitleDescription ~ * {
     margin-top: 4px;
+}
+
+
+@media(max-width:820px){
+    .mainHomeText{
+        max-width: 290px;
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width:760px){
+    .mainHomeText{
+        font-size: 16px;
+    }
 }

@@ -6,7 +6,7 @@ export const useValidation = (value,validations) => {
     const [minLengthError ,setMinLengthError] = React.useState(false);
     const [isEmailError , setEmailError] = React.useState(true);
     const [isInputValid, setisInputValid] = React.useState(false);
-  
+
     const minLengthErrorTrow = () => {
       setMinLengthError(true)
     }
@@ -35,11 +35,12 @@ export const useValidation = (value,validations) => {
         setisInputValid(true)
       }
     },[isEmpty,minLengthError,isEmailError])
+
     return{
       isEmpty,
       minLengthError,
       isEmailError,
       isInputValid,
-      minLengthErrorTrow
+      minLengthErrorTrow,
     }
   } 

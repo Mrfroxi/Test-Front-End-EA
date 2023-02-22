@@ -7,6 +7,14 @@ export const useInput = (InitialValue,validations) => {
     const [isDirty,setDirty] = React.useState(false);
 
     const valid = useValidation(value,validations);
+
+    const clearValue = () => {
+      setValue('')
+    }
+
+    const clearDirtyType = () =>{
+      setDirty(false)
+    }
   
     const makeDirty = () => {
       setDirty(true)
@@ -28,8 +36,8 @@ export const useInput = (InitialValue,validations) => {
       onBlur,
       isDirty,
       makeDirty,
-      setValue,
-      setDirty,
+      clearValue,
+      clearDirtyType,
       ...valid,
     }
   }

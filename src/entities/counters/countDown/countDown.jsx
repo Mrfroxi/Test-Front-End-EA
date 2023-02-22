@@ -11,6 +11,8 @@ const CountDown = () => {
   // eslint-disable-next-line no-unused-vars
   let interval = useRef();
 
+  // console.log(window.innerWidth);
+
   const startTimer = () => {
 
     const countDownDate = new Date("May 31 2023 00:00:00").getTime();

@@ -22,3 +22,17 @@
 .main ~ section {
     margin-top: 156px;
 }
+
+.firstVectorBlock{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+@media(max-width:800px){
+    .mainContainer{
+        padding-top: 100px;
+    }
+}

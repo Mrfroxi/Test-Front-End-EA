@@ -1,0 +1,8 @@
+.errorText{
+    position: absolute;
+    top: -32px;
+    left: 20px;
+    font-family: 'PoppinsBold';
+    color: rgba(233, 13, 13, 0.6);
+    font-size: 18px;
+}

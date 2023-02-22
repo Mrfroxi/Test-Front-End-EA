@@ -1,11 +1,9 @@
 .countDownBlock{
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
-.countDownBlock~*{
-    margin-top: 70px;
-}
 .countDown{
     display: flex;
 }

@@ -9,8 +9,7 @@ const MainHomeInformation = () => {
       <div className={classes.mainHomeText}>
         <p mainTitleDescription>
           We're making lots of improvements and will be
-          <br />
-          back soon
+          back soon lore
         </p>
       </div>
     </section>

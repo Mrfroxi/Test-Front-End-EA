@@ -2,18 +2,22 @@ import classes from "./footer.module.css";
 import { ReactComponent as ArrowRightSvg } from "../../shared/ui/svg/arrow-rightSvg.svg";
 import { sendData } from "../../action/mainAction";
 import { useInput } from "../../shared/hoc/useInput";
+import ErrorText from "../../shared/errorInputText/errorInputText";
 
 const Footer = ({ onClick, setModal }) => {
   
   const email = useInput("", { isEmpty: true, minLength: 4, isEmail: true });
+  // (email.isEmailError || email.minLengthError || email.isEmpty) && (
+  //   <ErrorText  text='Email is empty or invalid'/>
+  // )}
 
   return (
     <section className={classes.mainFooter}>
       <div className={classes.notifiedBlock}>
         <form className={classes.notifiedBlockForm}>
-          {email.isDirty && email.isEmpty && "write something"}
-          {email.isDirty && email.minLengthError && "write something2"}
-          {email.isDirty && email.isEmailError && "write something3"}
+
+          {email.isDirty && !email.isInputValid && <ErrorText text='Email is empty or invalid'/>}
+
           <input
             onChange={(e) => email.onChange(e)}
             onBlur={(e) => email.onBlur(e)}
@@ -24,6 +28,7 @@ const Footer = ({ onClick, setModal }) => {
           />
 
           <button
+            disabled={!email.isInputValid}
             type="submit"
             onClick={(e) => sendData(e, email, setModal)}
             className={classes.notifiedBlockFormBtn}

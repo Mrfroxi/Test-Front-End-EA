@@ -11,11 +11,14 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 62px 0 72px 0;
+    padding: 60px 0 70px 0;
 }
+
 .notifiedBlockForm{
     position: relative;
 }
+
+
 
 .notifiedBlockFormInput{
     width: 259px;
@@ -42,6 +45,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #DF2224;
 }
+
+.notifiedBlockFormBtn[disabled]{
+    background-color: #796d6d;
+}
+
 
 .notifiedBlockFormBtn svg{
     padding: 11px;
@@ -72,4 +80,102 @@
     height: 25px;
     top: 4px;
     margin: 0 5px 0 10px;
+}
+
+@media(max-width:1150px){
+    .linkRefMainFooter{
+        margin-right: 90px;
+    }
+}
+
+@media(max-width:1030px){
+    .linkRefMainFooter{
+        margin-right: 70px;
+    }
+}
+
+@media(max-width:940px){
+    .linkRefMainFooter{
+        margin-right: 60px;
+    }
+    .linkRefMainFooter a{
+        font-size: 16px;
+    }
+
+    .link::after {
+        top: 0px;
+        margin: 0 5px 0 6px;
+    }
+    .notifiedBlockFormInput{
+        padding: 16px 140px 16px 27px;
+    }
+}
+
+@media(max-width:800px){
+    .linkRefMainFooter{
+        margin-right: 40px;
+    }
+
+}
+
+@media(max-width:760px){
+
+    .notifiedBlockFormBtn{
+        right: 6px;
+        top: 4px;
+    }
+
+    .notifiedBlockFormBtn svg{
+        padding: 9px;
+    }
+
+    .notifiedBlockFormInput{
+        padding: 10px 135px 10px 20px;
+    }
+
+    .linkRefMainFooter{
+        margin-top: 15px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .notifiedBlock{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:440px){
+    .notifiedBlockFormBtn svg{
+        padding: 8px;
+    }
+    .notifiedBlockFormInput{
+        font-size: 17px;
+        padding: 10px 100px 10px 20px;
+    }
+}
+
+@media(max-width:410px){
+    .notifiedBlockFormInput{
+        font-size: 16px;
+        padding: 10px 80px 10px 20px;
+    }
+}
+
+@media(max-width:380px){
+    .notifiedBlockFormInput{
+        font-size: 115;
+        padding: 10px 50px 10px 20px;
+    }
+}
+
+@media(max-width:370px){
+    .notifiedBlockFormBtn svg{
+        padding: 7px;
+    }
+    .notifiedBlockFormInput{
+        font-size: 14px;
+        padding: 10px 0px 10px 20px;
+    }
 }

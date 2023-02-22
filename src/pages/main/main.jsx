@@ -4,8 +4,8 @@ import classes from "./main.module.css";
 import SvgLogo from "../../shared/components/svgLogo/svgLogo";
 import MainHomeInformation from "../../entities/mainHomeInformationBlock/mainHomeInformationBlock";
 import MainEntricingBlock from "../../entities/mainEntricingBlock/mainEntricingBlock";
-import "./action.css";
 import { CSSTransition } from "react-transition-group";
+import "./action.css";
 
 const Main = () => {
   const [showMessage, setShowMessage] = useState(false);
@@ -60,8 +60,8 @@ const Main = () => {
           </CSSTransition>
 
 
-    <div className="vectorBlock">
-      
+    <div className={classes.firstVectorBlock}>
+      <img src="../main/VectorFirst.svg" alt="vector"></img>
     </div>
 
         </section>

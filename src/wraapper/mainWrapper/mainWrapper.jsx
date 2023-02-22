@@ -19,11 +19,11 @@ const Wrapper = ({ setModal }) => {
 
       <Main />
 
+      <Footer onClick={handleClick} setModal={setModal} />
+
       <Events />
 
       <span className={classes.buildingAnimationBlock} ref={ref}></span>
-
-      <Footer onClick={handleClick} setModal={setModal} />
 
     </div>
   );
