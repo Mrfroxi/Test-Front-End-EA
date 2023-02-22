@@ -23,11 +23,13 @@ const SvgLogo = () => {
 
   return (
     <div className={classes.mainLogo}>
-      {width < 360 ? (
-        <NameOfSVG width="130px" height="40px" alt="Logo" />
-      ) : (
-        <NameOfSVG alt="Logo" />
-      )}
+      <a href="./">
+        {width < 360 ? (
+          <NameOfSVG width="130px" height="40px" alt="Logo" />
+        ) : (
+          <NameOfSVG alt="Logo" />
+        )}
+      </a>
     </div>
   );
 };
