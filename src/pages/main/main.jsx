@@ -5,6 +5,8 @@ import SvgLogo from "../../shared/components/svgLogo/svgLogo";
 import MainHomeInformation from "../../entities/mainHomeInformationBlock/mainHomeInformationBlock";
 import MainEntricingBlock from "../../entities/mainEntricingBlock/mainEntricingBlock";
 import { CSSTransition } from "react-transition-group";
+import { ReactComponent as NameOfSVG } from "../../shared/ui/svg/VectorFirst.svg";
+import { ReactComponent as NameOfSVGSEC } from "../../shared/ui/svg/VectorSecond.svg";
 import "./action.css";
 
 const Main = () => {
@@ -20,7 +22,6 @@ const Main = () => {
     <main className={classes.main}>
       <section className={classes.mainContainer}>
         <section className={classes.mainInformBlock}>
-
           <CSSTransition
             in={showMessage}
             timeout={1000}
@@ -57,9 +58,27 @@ const Main = () => {
             <MainEntricingBlock />
           </CSSTransition>
 
-          <div className={classes.firstVectorBlock}>
-            <img src="../main/VectorFirst.svg" alt="vector"></img>
-          </div>
+          <CSSTransition
+            in={showMessage}
+            timeout={1000}
+            classNames="firstSvg"
+            unmountOnExit
+          >
+            <div className={classes.svgWrapper}>
+              <NameOfSVG />
+            </div>
+          </CSSTransition>
+
+          <CSSTransition
+            in={showMessage}
+            timeout={1000}
+            classNames="secondSvg"
+            unmountOnExit
+          >
+            <div className={classes.svgWrapperSec}>
+              <NameOfSVGSEC />
+            </div>
+          </CSSTransition>
         </section>
       </section>
     </main>

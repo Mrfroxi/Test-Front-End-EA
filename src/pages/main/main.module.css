@@ -1,5 +1,5 @@
 .main{
-    /* padding-top: 110px; */
+
 }
 .titleFuck{
 
@@ -19,12 +19,19 @@
     min-height: 630px;
 }
 
-.firstVectorBlock{
+.svgWrapper{
     margin: 0;
     position: absolute;
     left: 0;
     top: 0;
 
+}
+
+.svgWrapperSec{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 @media(max-width:800px){
