@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Test-Front-End-EA/static/css/main.0495ce0e.css",
-    "main.js": "/Test-Front-End-EA/static/js/main.d2b91dd0.js",
+    "main.css": "/Test-Front-End-EA/static/css/main.789baddc.css",
+    "main.js": "/Test-Front-End-EA/static/js/main.8b403647.js",
     "static/js/787.ddf9e4c1.chunk.js": "/Test-Front-End-EA/static/js/787.ddf9e4c1.chunk.js",
     "static/media/FirstIvent.png": "/Test-Front-End-EA/static/media/FirstIvent.a252f22eb4dadfb01c0f.png",
     "static/media/SF-Pro-Display-Semibold.ttf": "/Test-Front-End-EA/static/media/SF-Pro-Display-Semibold.7c7f0ea67accd424999c.ttf",
@@ -12,18 +12,21 @@
     "static/media/Poppins-SemiBold.ttf": "/Test-Front-End-EA/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/Poppins-Bold.ttf": "/Test-Front-End-EA/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/LogoTestEx.svg": "/Test-Front-End-EA/static/media/LogoTestEx.d83a7b08df6c98f35ed4b5995e547a74.svg",
+    "static/media/VectorMLeft.svg": "/Test-Front-End-EA/static/media/VectorMLeft.6f200325c55d9c3b30ca8dd7e2ec1861.svg",
+    "static/media/VectorMRigth.svg": "/Test-Front-End-EA/static/media/VectorMRigth.3a20949ca8210b75b32494e4f3e98cb9.svg",
     "static/media/VectorFirst.svg": "/Test-Front-End-EA/static/media/VectorFirst.bbbf7b1c960b03d027d4bd74b697c74c.svg",
     "static/media/VectorSecond.svg": "/Test-Front-End-EA/static/media/VectorSecond.9220911a207b13dc6dc2baae21a60d05.svg",
     "static/media/arrow-rightSvg.svg": "/Test-Front-End-EA/static/media/arrow-rightSvg.75ea20c320803f1a15bab6b03e8b81e7.svg",
     "index.html": "/Test-Front-End-EA/index.html",
     "static/media/Vector.svg": "/Test-Front-End-EA/static/media/Vector.c061b4ef4b1d2b5801be.svg",
+    "static/media/VectorSmall.svg": "/Test-Front-End-EA/static/media/VectorSmall.ef1b06c8585be93ce075.svg",
     "static/media/arrow-downSvg.svg": "/Test-Front-End-EA/static/media/arrow-downSvg.bb06f3784b937a1d25e3.svg",
-    "main.0495ce0e.css.map": "/Test-Front-End-EA/static/css/main.0495ce0e.css.map",
-    "main.d2b91dd0.js.map": "/Test-Front-End-EA/static/js/main.d2b91dd0.js.map",
+    "main.789baddc.css.map": "/Test-Front-End-EA/static/css/main.789baddc.css.map",
+    "main.8b403647.js.map": "/Test-Front-End-EA/static/js/main.8b403647.js.map",
     "787.ddf9e4c1.chunk.js.map": "/Test-Front-End-EA/static/js/787.ddf9e4c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0495ce0e.css",
-    "static/js/main.d2b91dd0.js"
+    "static/css/main.789baddc.css",
+    "static/js/main.8b403647.js"
   ]
 }
