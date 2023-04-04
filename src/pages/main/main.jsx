@@ -40,14 +40,7 @@ const Main = () => {
             <MainHomeInformation />
           </CSSTransition>
 
-          {/* <CSSTransition
-            in={showMessage}
-            timeout={1000}
-            classNames="lastBlockAction"
-            unmountOnExit
-          >
-            <CountDown />
-          </CSSTransition> */}
+  
 
           <CSSTransition
             in={showMessage}
@@ -58,27 +51,7 @@ const Main = () => {
             <MainEntricingBlock />
           </CSSTransition>
 
-          {/* <CSSTransition
-            in={showMessage}
-            timeout={1000}
-            classNames="firstSvg"
-            unmountOnExit
-          >
-            <div className={classes.svgWrapper}>
-              <NameOfSVG />
-            </div>
-          </CSSTransition>
-
-          <CSSTransition
-            in={showMessage}
-            timeout={1000}
-            classNames="secondSvg"
-            unmountOnExit
-          >
-            <div className={classes.svgWrapperSec}>
-              <NameOfSVGSEC />
-            </div>
-          </CSSTransition> */}
+         
         </section>
       </section>
     </main>
